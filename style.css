@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+::selection {
+    color: #fff;
+    background-color: orangered;
+}
+
+/* #block {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+} */
+
+.Start a h3{
+    position: relative;
+    z-index: 999;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 26px;
+}
+.Start:hover a h3{
+    color: rgb(12, 122, 248);
+    transition: 0.3s;
+}
+.Block_Background ul li {
+    display: inline-block;
+}
+.Block_Background {
+    background-color: #000;
+    height: 26px;
+}
+
+.Block_Background ul li a h3:hover{
+    color: green;
+}
+.Block_Background ul li a{
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    line-height: 26px;
+
+}
+.Start {
+    display: inline-block;
+}
+
+.Postion_ImageRelvete::after img{
+    position: relative;
+}
+
+.Postion_Absolute::after {
+    position: absolute;
+}
+
+
+/* @media only screen and (min-width: 670px) {
+    .Postion_Absolute {
+        display: inline-block !important;
+        top: -63vh !important;
+        position: relative !important;
+        left: 9px !important;
+    }
+} */
+
+
+.Postion_Absolute {
+    display: inline-block;
+    top: -116vh;
+    position: relative;
+    left: 9px;
+    text-align: center;
+}
+
+*.Block__myComputer, *.Block__Garbage, *.Block__netWorld {
+    margin-top: 21px;
+    border-radius: 50%;
+}
+
+.Postion_Absolute .Block__myComputer {
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+}
+
+.Postion_Absolute .Block__netWorld {
+    background-color: rgb(140, 243, 43);
+    width: 50px;
+    height: 50px;
+}
+
+.Postion_Absolute .Block__Garbage {
+    background-color: rgb(68, 123, 241);
+    width: 50px;
+    height: 50px;
+}
+
+.Block__myComputer:hover , .Block__Garbage:hover , .Block__netWorld:hover, .Text__Section{
+    background-color: rgba(80, 189, 252, 0.658);
+}
+.Block__myComputer , .Block__Garbage , .Block__netWorld {
+    transform: translateX(35%);
+}
